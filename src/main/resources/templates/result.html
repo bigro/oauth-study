@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+
+<img th:src="${picture}">
+<p th:text="'Email: ' + ${email}"></p>
+<p th:text="'Name:  ' + ${name}"></p>
+
+<a th:href="${back}">back</a>
+
+</body>
+</html>
